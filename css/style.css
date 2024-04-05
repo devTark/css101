@@ -1,0 +1,55 @@
+/* **************** Font Ailesi **************** */
+
+/*Beceremedim */
+
+/* **************** Navbar Position **************** */
+
+nav ul {
+    position: sticky;
+    list-style-type: none;
+    float: inherit;
+    overflow: hidden;
+    background-color: #333;
+    padding: 0;
+}
+nav li {
+    display: inline-flex;
+    padding: 8px;
+    border-right: 1px solid black;
+}
+
+nav li:last-child{
+    background-color: green;
+    border-right: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+nav a {
+    display: block;
+    color: white;
+    padding: 8px;
+}
+
+/* ******************* BODY - GÖRSELLER **************** */
+
+.galeri {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+.galeri:hover {
+    border: 1px solid #777;
+}
+
+html {
+    background-color: lightgray;
+}
+
+
+/* ****************** İLETİSİM **************** */
+
+
